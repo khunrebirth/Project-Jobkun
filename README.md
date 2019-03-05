@@ -1,4 +1,4 @@
-# Jobkhun
+# Jobkun
 https://jobkun.com/
 
 ## What's New
