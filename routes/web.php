@@ -18,19 +18,19 @@ Route::prefix('/')->group(function () {
 
     # Jobs
     Route::get('jobs', 'JobController@index')->name('jobs');
-//
-//    # People
-//    Route::get('people', 'PeopleController@index')->name('people');
-//
-//    # Services
-//    Route::get('services', 'ServiceController@index')->name('services');
-//
-//    # Abouts
-//    Route::get('abouts', 'AboutController@index')->name('abouts');
-//
-//    # Blogs
-//    Route::get('blogs', 'BlogController@index')->name('blogs');
-//
-//    # Contacts
-//    Route::get('contacts', 'ContactController@index')->name('contacts');
+
+    # People
+    Route::get('people', 'PeopleController@index')->name('people');
+
+    # Services
+    Route::get('services', 'ServiceController@index')->name('services');
+
+    # Abouts
+    Route::get('abouts', 'AboutController@index')->name('abouts');
+
+    # Blogs
+    Route::get('blogs', 'BlogController@index')->name('blogs');
+
+    # Contacts
+    Route::get('contacts', 'ContactController@index')->name('contacts');
 });
