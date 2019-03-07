@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::prefix('/')->group(function () {
+
+    # Home
+    Route::get('/', 'HomeController@index')->name('home');
+
+    # Job
+    Route::get('/', 'JobController@index')->name('job');
+
+    # People
+    Route::get('/', 'PeopleController@index')->name('people');
+
+    # Service
+    Route::get('/', 'Serviceontroller@index')->name('service');
+
+    # About
+    Route::get('/', 'AboutController@index')->name('about');
+
+    # Blog
+    Route::get('/', 'BlogController@index')->name('blog');
+
+    # Contact
+    Route::get('/', 'Contactontroller@index')->name('contact');
 });
