@@ -32,5 +32,5 @@ Route::prefix('/')->group(function () {
     Route::get('/', 'BlogController@index')->name('blog');
 
     # Contact
-    Route::get('/', 'Contactontroller@index')->name('contact');
+    Route::get('/', 'ContactController@index')->name('contact');
 });
