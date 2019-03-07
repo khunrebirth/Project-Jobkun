@@ -16,21 +16,21 @@ Route::prefix('/')->group(function () {
     # Home
     Route::get('/', 'HomeController@index')->name('home');
 
-    # Job
-    Route::get('/', 'JobController@index')->name('job');
-
-    # People
-    Route::get('/', 'PeopleController@index')->name('people');
-
-    # Service
-    Route::get('/', 'Serviceontroller@index')->name('service');
-
-    # About
-    Route::get('/', 'AboutController@index')->name('about');
-
-    # Blog
-    Route::get('/', 'BlogController@index')->name('blog');
-
-    # Contact
-    Route::get('/', 'ContactController@index')->name('contact');
+//    # Jobs
+//    Route::get('jobs', 'JobController@index')->name('jobs');
+//
+//    # People
+//    Route::get('people', 'PeopleController@index')->name('people');
+//
+//    # Services
+//    Route::get('services', 'ServiceController@index')->name('services');
+//
+//    # Abouts
+//    Route::get('abouts', 'AboutController@index')->name('abouts');
+//
+//    # Blogs
+//    Route::get('blogs', 'BlogController@index')->name('blogs');
+//
+//    # Contacts
+//    Route::get('contacts', 'ContactController@index')->name('contacts');
 });
