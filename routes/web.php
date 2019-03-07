@@ -16,8 +16,8 @@ Route::prefix('/')->group(function () {
     # Home
     Route::get('/', 'HomeController@index')->name('home');
 
-//    # Jobs
-//    Route::get('jobs', 'JobController@index')->name('jobs');
+    # Jobs
+    Route::get('jobs', 'JobController@index')->name('jobs');
 //
 //    # People
 //    Route::get('people', 'PeopleController@index')->name('people');
