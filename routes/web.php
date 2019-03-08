@@ -34,3 +34,5 @@ Route::prefix('/')->group(function () {
     # Contacts
     Route::get('contacts', 'ContactController@index')->name('contacts');
 });
+
+Auth::routes();

@@ -7,7 +7,7 @@
     <title>Laravel</title>
 
     <!-- font -->
-    {{--<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">--}}
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700&amp;subset=thai" rel="stylesheet">
 
     <!-- css libraries -->
